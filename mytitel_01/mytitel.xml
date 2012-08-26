@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5.0" type="plugin" group="content">
+	<name>plg_mytitel 01</name>
+	<author>Axel Tueting</author>
+	<creationDate>Juli 2012</creationDate>
+	<copyright>Franzis Verlag</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<authorEmail>tueting@time4mambo.de</authorEmail>
+	<authorUrl>www.time4mambo.de</authorUrl>
+	<version>0.1</version>
+	<description>Ein erstes ganz einfaches Plugin</description>
+
+	<files>
+		<filename plugin="mytitel">mytitel.php</filename>
+		<filename>index.html</filename>
+	</files>
+</extension>
