@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5.0" type="plugin" group="mythings">
+	<name>plg_mytitel 03</name>
+	<author>Axel Tueting</author>
+	<creationDate>Juli 2012</creationDate>
+	<copyright>Franzis Verlag</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<authorEmail>tueting@time4mambo.de</authorEmail>
+	<authorUrl>www.time4mambo.de</authorUrl>
+	<version>0.3</version>
+	<description>PLG_MYTHINGS_MYTITEL_XML_DESCRIPTION</description>
+
+	<files>
+		<filename plugin="mytitel">mytitel.php</filename>
+		<filename>index.html</filename>
+	</files>
+
+	<config>
+		<fields name="params">
+			<fieldset name="TITEL">
+				<field name="titel" type="input"
+					default="Wir lernen, wie wir unser erstes Plugin programmieren"
+					description="PLG_MYTHINGS_MYTITEL_TITEL_DESC"
+					label="PLG_MYTHINGS_MYTITEL_TITEL"
+					size="50"
+				>
+				</field>
+				<field name="groesse" type="input"
+					default="1.5"
+					description="PLG_MYTHINGS_MYTITEL_GROESSE_DESC"
+					label="PLG_MYTHINGS_MYTITEL_GROESSE"
+					size="5"
+				>
+				</field>
+			</fieldset>
+		</fields>
+	</config>
+
+	<languages folder="language">
+		<language tag="en-GB">en-GB/en-GB.plg_mythings_mytitel.ini</language>
+		<language tag="de-DE">de-DE/de-DE.plg_mythings_mytitel.ini</language>
+		<language tag="de-DE">de-DE/de-DE.plg_mythings_mytitel.sys.ini</language>
+		<language tag="en-GB">en-GB/en-GB.plg_mythings_mytitel.sys.ini</language>
+	</languages>
+
+</extension>
